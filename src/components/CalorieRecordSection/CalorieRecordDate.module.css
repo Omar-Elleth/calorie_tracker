@@ -1,0 +1,18 @@
+.record-date-month {
+  color: #a60000;
+  font-weight: 600;
+  font-size: 0.80rem;
+  text-transform: uppercase;
+}
+
+.record-date-day {
+  color: #333;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.record-date-year {
+  color: #2112f4;
+  font-size: 0.80rem;
+  font-weight: bold;
+}

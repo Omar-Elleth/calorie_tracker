@@ -1,0 +1,19 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --theme-backgroundp-ultralight: #effaff;
+  --theme-backgroundp-normal: #a0d2eb;
+  --theme-backgroundp-light: #e5eaf5;
+  --theme-color-light: #d0bdf4;
+  --theme-color-normal: #8458b3;
+  --theme-color-dark: #494d5f;
+}
+
+body {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 10px;
+  background-color: #eee;
+}

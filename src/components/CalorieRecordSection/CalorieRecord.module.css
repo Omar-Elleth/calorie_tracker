@@ -1,0 +1,23 @@
+.record {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  margin-bottom: 16px;
+  color: #3b3663;
+  background: linear-gradient(to right, #f3f0ff, #eaf4ff);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.record:hover {
+  transform: scale(1.02);
+}
+
+.record-calories {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+}

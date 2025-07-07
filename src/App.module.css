@@ -1,0 +1,50 @@
+.title {
+  color: var(--theme-color-dark);
+  font-weight: 600;
+  font-size: clamp(2rem, 5vw, 3rem); /* Responsive font size */
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--theme-color-dark);
+  margin: 12px auto 0;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.title:hover::after {
+  width: 90px;
+}
+
+.open-modal-button {
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  color: #494d5f;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  display: block;
+  border-radius: 12px;
+  padding: 12px 24px;
+  cursor: pointer;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 240px;
+  margin: 24px auto;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+
+.open-modal-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}

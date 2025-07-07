@@ -1,0 +1,36 @@
+.record-list {
+  list-style: none;
+  padding: 20px;
+  border: 1px solid #cccaf3;
+  border-radius: 16px;
+  background: linear-gradient(to right, #ede9fe, #e0f0ff);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.list-item:not(:last-child) {
+  border-bottom: 1px solid #4b3f72;
+}
+
+.placeholder {
+  height: 120px;
+  width: 100%;
+  border: 2px dashed var(--theme-color-normal);
+  border-radius: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--theme-color-normal);
+  background-color: #f8f9fc;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.placeholder:hover {
+  background-color: #f0f2fa;
+  transform: translateY(-2px);
+}
